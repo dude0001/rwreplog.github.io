@@ -4,9 +4,7 @@ const MagicButton = ({
   title,
   icon,
   position,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  handleClick,
-  otherClasses,
+  otherClasses
 }: {
   title: string;
   icon: React.ReactNode;
