@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "[HUSKY] Pre-Commit:"
+
+npm run pre-commit
